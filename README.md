@@ -1,4 +1,4 @@
-# HelpWidget
+<img width="1440" alt="Screenshot 2025-02-24 at 8 09 07 PM" src="https://github.com/user-attachments/assets/7da96202-adfd-4bf3-833e-d64b401304d8" /># HelpWidget
 
 HelpWidget is a React component that provides a customizable floating widget for websites. It fetches its configuration dynamically from a DynamoDB database and can display buttons that redirect users, open modals, or initiate calls.
 
@@ -89,6 +89,14 @@ export default App;
 - Styles are mapped from the configuration.
 - Icons are fetched dynamically.
 - The position, color, and size of the main toggle button can be modified in the DynamoDB configuration.
+
+## Embedding in Other Applications
+Once built, the widget can be included in any application by adding the following script tag in the head of the target application:
+
+```html
+<script src="https://your-cdn.com/path-to-bundle/bundle.js"></script>
+```
+
 
 ## License
 This project is licensed under the MIT License.
