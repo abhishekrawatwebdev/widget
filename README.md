@@ -93,15 +93,13 @@ export default App;
 ## Embedding in Other Applications
 Once built, the widget can be included in any application by adding the following script tag in the head of the target application:
 
-<img width="1440" alt="Screenshot 2025-02-24 at 8 11 01 PM" src="https://github.com/user-attachments/assets/98a469fe-3ec9-4bad-98a2-fd0d1c545cf5" />
-<img width="1440" alt="Screenshot 2025-02-24 at 8 09 07 PM" src="https://github.com/user-attachments/assets/a2dfdb29-77e2-4d95-b338-4e589d29adbb" />
-
 
 ```html
 <script src="https://your-cdn.com/path-to-bundle/bundle.js"></script>
 ```
 
-
+<img width="1040" alt="Screenshot 2025-02-24 at 8 11 01 PM" src="https://github.com/user-attachments/assets/98a469fe-3ec9-4bad-98a2-fd0d1c545cf5" />
+<img width="1040" alt="Screenshot 2025-02-24 at 8 09 07 PM" src="https://github.com/user-attachments/assets/a2dfdb29-77e2-4d95-b338-4e589d29adbb" />
 ## License
 This project is licensed under the MIT License.
 
