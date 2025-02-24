@@ -1,0 +1,58 @@
+.zithara-widget-modal-container{
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.315);
+    transition: all 0.4s ease-in-out;
+}
+
+.zithara-widget-modal{
+    background-color: white;
+    border-radius: 20px;
+    min-height: 30vh;
+    max-height: 50vh;
+    overflow-y: auto;
+    min-width: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+    .zithara-widget-modal{
+        min-width: 100vw;
+        max-height: 100vh;
+    }
+}
+
+.zithara-widget-modal-content{
+    padding: 20px 24px;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zithara-widget-modal-header{
+    padding: 20px 24px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zithara-widget-modal-title{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #353535;
+}
+.zithara-modal-close-icon{
+    fill: #353535;
+    font-size: 20px;
+    cursor: pointer;
+}
